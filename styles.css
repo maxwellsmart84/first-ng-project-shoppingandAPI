@@ -1,0 +1,15 @@
+li {
+  list-style: none;
+  width: 100%;
+  display: inline-block; }
+
+#cheeseHeader {
+  font-family: cursive;
+  font-size: 45px;
+  text-align: center; }
+
+.cheeseList {
+  display: inline-block; }
+
+.cheesePic {
+  width: 300px; }

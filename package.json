@@ -1,0 +1,16 @@
+{
+  "name": "my-first-ng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass sassy.scss styles.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "underscore": "^1.8.3"
+  }
+}

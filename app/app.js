@@ -15,27 +15,27 @@
       $routeProvider
         .when('/', {
         templateUrl:"views/homePage.html",
-        controller: 'MainController'
+        controller: 'MainController as mainCtrl'
         })
         .when('/cheese',{
         templateUrl:'views/cheeselist.html',
-        controller:'CheeseController'
+        controller:'CheeseController as cheeseCtrl'
         })
         .when('/bear', {
           templateUrl:'views/bearlist.html',
-          controller: 'BearController'
+          controller: 'BearController as bearCtrl'
         })
         .when('/bear:bearId', {
           templateUrl:'views/bearshow.html',
-          controller: 'BearController'
+          controller: 'BearController as bearCtrl'
         })
-        .when('/girly',{
-          templateUrl: 'views/girly.html',
-          controller: 'GirlyController'
+        .when('/shop',{
+          templateUrl: 'views/shop.html',
+          controller: 'ShopController as shopCtrl'
         })
         .when('/funny',{
           templateUrl: 'views/funny.html',
-          controller: 'FunnyController'
+          controller: 'FunnyController as funnyCtrl'
         })
         .when('/404',{
           templateUrl: 'views/404.html'

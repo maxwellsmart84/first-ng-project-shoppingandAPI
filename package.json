@@ -1,0 +1,18 @@
+{
+  "name": "my-first-ng",
+  "version": "1.0.0",
+  "description": "Love-Dove-App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass app/sassy.scss app/styles.css -w"
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-route": "^1.4.8",
+    "underscore": "^1.8.3"
+  }
+}

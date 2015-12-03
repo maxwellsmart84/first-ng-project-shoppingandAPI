@@ -5,14 +5,25 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass app/sassy.scss app/styles.css -w"
+    "sass": "node-sass app/sassy.scss app/styles.css -w",
     "start": "node server.js"
   },
-  "author": "",
+  "keywords": "server",
+  "author": "Maxwell Krause",
   "license": "MIT",
   "dependencies": {
     "angular": "^1.4.8",
     "angular-route": "^1.4.8",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-print": "^2.0.1"
   }
 }

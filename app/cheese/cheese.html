@@ -1,0 +1,7 @@
+<h1 id="cheeseHeader">CHEESE FOR THE DOVE</h1>
+
+<div ng-repeat="cheese in cheeseData" class="col-md-4 cheesePhotos">
+  <ul class="cheeseList">
+    <li><img class="cheesePic" ng-show="{{cheese.data.thumbnail.length}}" ng-src="{{cheese.data.thumbnail}}" alt="" /></img></li>
+  </ul>
+</div>
